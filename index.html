@@ -1,0 +1,320 @@
+<!Doctype html>
+<html lang="ru">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Профессиональное техническое обслуживание компьютеров в RemPC гарантирует быстрое и безопасное устранение проблем.">
+        <meta name="googlebot" content="notranslate" />
+        <meta name="keywords" content="ремонт компьютеров, ремонт пк, ремонт ноутбуков, обслуживание пк, компьютерная помощь, проверка пк, компьютерный мастер, сборка пк, собрать пк, собрать компьютер, собранный компьютер"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="img/Favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/Favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/Favicons/favicon-16x16.png">
+        <link rel="manifest" href="img/Favicons/site.webmanifest">
+        <link rel="mask-icon" href="img/Favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <title>Ремонт компьютеров</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    </head>
+    <body>
+    
+    <!-- Sprite -->
+    <svg style="display: none;">
+        <symbol id="vk" viewBox="0 0 24 24">
+            <g>
+                <path d="M22.316,1.684C20.632,0,17.921,0,12.5,0h-1C6.079,0,3.368,0,1.684,1.684C0,3.368,0,6.079,0,11.5v1   c0,5.421,0,8.131,1.684,9.816S6.079,24,11.5,24h1c5.421,0,8.131,0,9.816-1.684C24,20.632,24,17.921,24,12.5v-1   C24,6.079,24,3.368,22.316,1.684z M19.503,17h-1.75c-0.667,0-0.863-0.532-2.05-1.719c-1.039-1.001-1.484-1.131-1.743-1.131   c-0.353,0-0.458,0.1-0.458,0.6v1.569c0,0.43-0.137,0.681-1.25,0.681c-1.854,0-3.892-1.126-5.339-3.202   c-2.17-3.041-2.763-5.34-2.763-5.803c0-0.26,0.1-0.495,0.6-0.495h1.751c0.447,0,0.615,0.196,0.783,0.68   c0.856,2.493,2.3,4.672,2.893,4.672c0.222,0,0.324-0.103,0.324-0.667V9.608c-0.065-1.186-0.696-1.284-0.696-1.706   c0-0.195,0.167-0.402,0.445-0.402h2.751c0.371,0,0.5,0.198,0.5,0.643v3.467c0,0.37,0.161,0.5,0.272,0.5   c0.223,0,0.408-0.13,0.816-0.538c1.261-1.409,2.151-3.578,2.151-3.578c0.112-0.26,0.316-0.495,0.762-0.495h1.75   c0.529,0,0.641,0.272,0.529,0.643c-0.223,1.02-2.355,4.023-2.355,4.023c-0.186,0.297-0.26,0.445,0,0.779   c0.186,0.26,0.797,0.779,1.205,1.261c0.752,0.846,1.319,1.559,1.477,2.051C20.254,16.75,20.003,17,19.503,17z" fill="black" data-original="#fff"/>
+            </g>
+        </symbol>
+        <symbol id="telegram" viewBox="0 0 48 48">
+            <g>
+                <path d="M8.93822 25.174C11.7438 23.6286 14.8756 22.3388 17.8018 21.0424C22.836 18.919 27.8902 16.8324 32.9954 14.8898C33.9887 14.5588 35.7734 14.2351 35.9484 15.7071C35.8526 17.7907 35.4584 19.8621 35.188 21.9335C34.5017 26.4887 33.7085 31.0283 32.935 35.5685C32.6685 37.0808 30.774 37.8637 29.5618 36.8959C26.6486 34.9281 23.713 32.9795 20.837 30.9661C19.8949 30.0088 20.7685 28.6341 21.6099 27.9505C24.0093 25.5859 26.5539 23.5769 28.8279 21.0901C29.4413 19.6088 27.6289 20.8572 27.0311 21.2397C23.7463 23.5033 20.5419 25.9051 17.0787 27.8945C15.3097 28.8683 13.2479 28.0361 11.4797 27.4927C9.89428 26.8363 7.57106 26.175 8.93806 25.1741L8.93822 25.174Z" fill="black"/>
+            </g>
+        </symbol>
+        <symbol id="watsapp" viewBox="0 0 64 64">
+            <g>
+                <path class="cls-1" height="64" rx="11.2" ry="11.2" width="64" d="M27.42,21.38l2,5.43a.76.76,0,0,1-.1.74,10.32,10.32,0,0,1-1.48,1.71.8.8,0,0,0-.16,1.09C28.91,32,32.1,36,36.25,37.43a.79.79,0,0,0,.89-.29l1.66-2.21a.8.8,0,0,1,1-.23L45,37.3a.79.79,0,0,1,.4,1c-.57,1.62-2.36,5.57-6.19,4.93A20.79,20.79,0,0,1,26.4,36c-3.14-3.92-9.34-14,.19-15.14A.8.8,0,0,1,27.42,21.38Z"/><path class="cls-2" d="M33.6,54.8a24.21,24.21,0,0,1-11.94-3.13l-12,3.08,4.41-9.91A22,22,0,0,1,10,32C10,19.43,20.59,9.2,33.6,9.2S57.2,19.43,57.2,32,46.61,54.8,33.6,54.8ZM22.29,47.37l.73.45a20.13,20.13,0,0,0,10.58,3c10.81,0,19.6-8.43,19.6-18.8S44.41,13.2,33.6,13.2,14,21.63,14,32a18.13,18.13,0,0,0,4,11.34l.75.95-3.61,6.12Z" fill="black"/>
+            </g>
+        </symbol>
+    </svg>
+    
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="header_logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                    
+                <nav class="nav" id="nav">
+                    <a class="nav_link" href="#" data-scroll="#features">ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ</a>
+                    <a class="nav_link" href="#"data-scroll="#form">ФОРМА СВЯЗИ</a>
+                    <a class="nav_link" href="#"data-scroll="#works">ВИДЫ РАБОТ</a>
+                    <a class="nav_link" href="#"data-scroll="#footer">КОНТАКТЫ</a>
+                </nav>
+                <button class="burger" type="button" id="navToggle">
+                    <span class="burger_item">Menu</span>
+                </button>
+            </div>
+        </div>
+    </header>
+        
+    <!-- Intro -->
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro_inner">
+                <h1 class="intro_title">Профессиональное техническое обслуживание</h1>
+                <h2 class="intro_subtitle">Продли жизнь своего компьютера!</h2>
+                <a class="btn btn--grey" href="#"data-scroll="#form">Оставить заявку</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tech -->
+    <div class="tech">
+        <div class="container">
+            <div class="tech_inner">
+                <div class="tech_photo">
+                    <img class="tech_img" src="img/tech1.jpg" alt="">
+                </div>
+                <div class="tech_content">
+                    <div class="tech_title">Почему важно регулярно проходить ТО</div>
+                    <div class="tech_subtitle">Профессиональное техническое обслуживание компьютеров в RemPC гарантирует быстрое и безопасное устранение проблем. Благодаря регулярному ТО вы получаете «здоровое», продуктивное и эстетичное устройство, которое прослужит вам много лет.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tech -->
+    <!--<div class="tech">
+        <div class="tech_line">
+            <div class="container">
+                <div class="tech_inner">
+                    <h1 class="tech_title">Почему важно регулярно проходить ТО</h1>
+                    <h2 class="tech_subtitle">Профессиональное техническое обслуживание компьютеров в RemPC гарантирует быстрое и безопасное устранение проблем. Благодаря регулярному ТО вы получаете «здоровое», продуктивное и эстетичное устройство, которое прослужит вам много лет.</h2>
+                </div>
+                <div class="tech_item">
+                    <img class="tech_icon" src="img/icon1-1.png"alt="">
+                    <div class="tech_text">Приедем в удобное для Вас время</div>
+                </div>
+
+                <div class="tech_item">
+                    <img class="tech_icon" src="img/icon1-1.png"alt="">
+                    <div class="tech_text">Приедем в удобное для Вас время</div>
+                </div>
+
+                <div class="tech_item">
+                    <img class="tech_icon" src="img/icon1-1.png"alt="">
+                    <div class="tech_text">Приедем в удобное для Вас время</div>
+                </div>
+
+                <div class="tech_item">
+                    <img class="tech_icon" src="img/icon1-1.png"alt="">
+                    <div class="tech_text">Приедем в удобное для Вас время</div>
+                </div>
+
+                div class="tech_item">
+                    <img class="tech_icon" src="img/icon1-1.png"alt="">
+                    <div class="tech_text">Приедем в удобное для Вас время</div>
+                </div>
+
+                <div class="tech_item">
+                    <img class="tech_icon" src="img/icon1-1.png"alt="">
+                    <div class="tech_text">Приедем в удобное для Вас время</div>
+                </div>
+            </div>
+        </div>  
+    </div>-->
+
+     <!-- Features -->   
+        <div class="container" id="features">
+            <div class="features">
+                <div class="features_item">
+                    <img class="features_icon" src="img/icon1-1.png"alt="">
+                    <h4 class="features_title">Выездной специалист</h4>
+                    <div class="features_text">Приедем в удобное для Вас время</div>
+                </div>
+
+                <div class="features_item">
+                    <img class="features_icon" src="img/icon2-2.png"alt="">
+                    <h4 class="features_title">Техническое обслуживание</h4>
+                    <div class="features_text">Проведём полную диагностику вашего ПК</div>
+                </div>
+
+                <div class="features_item">
+                    <img class="features_icon" src="img/icon3-3.png"alt="">
+                    <h4 class="features_title">Программное обеспечения</h4>
+                    <div class="features_text">Произведём качественную установку лицензионного ПО</div>
+                </div>
+
+                <div class="features_item">
+                    <img class="features_icon" src="img/icon4-4.png"alt="">
+                    <h4 class="features_title">Улучшение характеристик</h4>
+                    <div class="features_text">Установим доп оборудование отталкиваясь от Вашего бюджета</div>
+                </div>
+
+                <div class="features_item">
+                    <img class="features_icon" src="img/icon5-5.png"alt="">
+                    <h4 class="features_title">Восстановление данных</h4>
+                    <div class="features_text">Произведем восстановление утерянных данных</div>
+                </div>
+
+                <div class="features_item">
+                    <img class="features_icon" src="img/icon6-6.png"alt="">
+                    <h4 class="features_title">Конфигурирование ПК</h4>
+                    <div class="features_text">Соберём компьютер по Вашим предпочнениям</div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Form -->
+    <form action="#" id="form">
+        <fieldset id="fieldset">
+            <legend>Форма обратной связи</legend>
+            <div class="wrap">
+                <label for="name">Имя</label>
+                <input type="text" id="name" placeholder="Иван">
+            </div>
+            <div class="wrap">
+                <label for="phone">Телефон</label>
+                <input type="text" id="phone" placeholder="+7(000)000-0000">
+            </div>
+            <div class="wrap">
+                <label for="mail">E-mail</label>
+                <input type="text" id="mail" placeholder="mymail@mail.ru">
+            </div>
+            <textarea type="text" id="text" placeholder="Текст"></textarea>
+            <input type="submit" placeholder="Отправить" id="btn">
+        </fieldset>
+    </form>
+    <script src="js.js"></script>
+    <script>
+        window.onload = () => {
+            document.getElementById('form').addEventListener('submit', () => {
+                event.preventDefault();
+                const form = new Form(/^[a-zа-яё]+$/gi, /\+7\(\d{3}\)\d{3}-\d{4}/g, /[\w.-]+@\w+\.ru|com/gi);
+                form.init();
+            })
+        }
+    </script>
+    
+    <!-- Works-->
+    <div class="works" id="works">
+        <div class="works_item">
+            <img class="works_photo" src="img/works/1.jpg" alt="">
+            <div class="works_content">
+                <div class="works_title">Вид работы</div>
+                <div class="works_text">Описание</div>
+            </div>
+        </div>
+        <div class="works_item">
+            <img class="works_photo" src="img/works/2.jpg" alt="">
+            <div class="works_content">
+                <div class="works_title">Вид работы</div>
+                <div class="works_text">Описание</div>
+            </div>
+        </div>
+        <div class="works_item">
+            <img class="works_photo" src="img/works/3.jpg" alt="">
+            <div class="works_content">
+                <div class="works_title">Вид работы</div>
+                <div class="works_text">Описание</div>
+            </div>
+        </div>
+        <div class="works_item">
+            <img class="works_photo" src="img/works/4.jpg" alt="">
+            <div class="works_content">
+                <div class="works_title">Вид работы</div>
+                <div class="works_text">Описание</div>
+            </div>
+        </div>
+        <div class="works_item">
+            <img class="works_photo" src="img/works/5.jpg" alt="">
+            <div class="works_content">
+                <div class="works_title">Вид работы</div>
+                <div class="works_text">Описание</div>
+            </div>
+        </div>
+        <div class="works_item">
+            <img class="works_photo" src="img/works/6.jpg" alt="">
+            <div class="works_content">
+                <div class="works_title">Вид работы</div>
+                <div class="works_text">Описание</div>
+            </div>
+        </div>
+        <div class="works_item">
+            <img class="works_photo" src="img/works/7.jpg" alt="">
+            <div class="works_content">
+                <div class="works_title">Вид работы</div>
+                <div class="works_text">Описание</div>
+            </div>
+        </div>
+        <div class="works_item">
+            <img class="works_photo" src="img/works/8.jpg" alt="">
+            <div class="works_content">
+                <div class="works_title">Вид работы</div>
+                <div class="works_text">Описание</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer_inner">
+                <div class="footer_block">
+                    <h4 class="footer_title">Адрес:</h4>
+                    <address class="footter_address">
+                        <div>г.Альметьевск, улица Ленина 105</div>
+                        <div>Цокольный этаж, помещение 7</div>
+                    </address>
+                </div>
+
+                <div class="footer_block">
+                    <h4 class="footer_title">Социальные сети:</h4>
+                    <div class="social social--footer">
+                        <a class="social_item" href="#" target="_blank">
+                            <svg class="social_icon">
+                                <use xlink:href="#vk"></use>
+                            </svg>
+                        </a>
+                        <a class="social_item" href="#" target="_blank">
+                            <svg class="social_icon">
+                                <use xlink:href="#telegram"></use>
+                            </svg>
+                        </a>
+                        <a class="social_item" href="#" target="_blank">
+                            <svg class="social_icon">
+                                <use xlink:href="#watsapp"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer_block">
+                    <h4 class="footer_title">Телефон:</h4>
+                    <address class="footter_address">
+                        <div>+7(950)946-75-40</div>
+                    </address>
+                </div>
+            </div>                    
+        </div>   
+    </footer>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="copyright_text">
+            &copy; 2022  RemPC. All rights reserved <span class="hidden-xs">-</span><br class="visible-xs">Designed by Kuznetcov K.V.
+        </div>
+    </div>
+
+    <script src="code.js"></script>
+
+    </body>
+</html>
+
+
